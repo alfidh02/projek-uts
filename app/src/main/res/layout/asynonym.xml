@@ -6,23 +6,21 @@
     android:layout_height="match_parent"
     tools:context=".Asynonym">
 
-    <ProgressBar
-        android:id="@+id/progressBar"
-        style="?android:attr/progressBarStyleHorizontal"
-        android:layout_width="0dp"
-        android:layout_height="16dp"
-        android:backgroundTint="@color/colorAccent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
     <android.support.v7.widget.Toolbar
         android:id="@+id/bgHeader"
         android:layout_width="match_parent"
         android:layout_height="120dp"
         android:background="@drawable/header_register"
-        android:theme="@style/ToolbarTheme"
-        android:elevation="5dp" />
+        android:theme="@style/ToolbarTheme" />
+    
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorAccent"
+        android:layout_marginTop="-5dp"/>
 
     <TextView
         android:id="@+id/tvSignUp"
