@@ -13,7 +13,7 @@
         android:layout_height="120dp"
         android:background="@drawable/header_register"
         android:theme="@style/ToolbarTheme" />
-    
+
     <ProgressBar
         android:id="@+id/progressBar"
         style="?android:attr/progressBarStyleHorizontal"
